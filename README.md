@@ -5,6 +5,11 @@ This is a BrainFuck interpreter that supports networking commands. All BrainFuck
 \
 All cells contain both a value in conventional BrainFuck, and a space to store TCP socket information, which is manipulated by the networking commands.
 
+Usage:
+
+    $ javac Netfuck.java
+    $ java Netfuck [-s] [-e] [-v] code.bf
+
 ## Networking Commands:
 
 **\`** Set the port using the value from the current cell\
